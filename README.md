@@ -1,4 +1,3 @@
-# cpsc410_project2_team18
 # Starry Analyzer
 
 ## Summary
