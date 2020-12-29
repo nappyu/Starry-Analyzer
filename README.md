@@ -60,10 +60,10 @@ This project is a maven (Java) and React (JavaScript) project. You will need to 
 ### Install dependencies for React
 Make sure you have **npm** installed. You can check if it's already installed by running the command `npm -version` or `npm --version` on the terminal. If not installed, refer to the following link: (https://www.npmjs.com/get-npm).
 
-Inside `cpsc410_project2_team18\src\ui` directory, run `npm install`. This will install the required dependencies for the front-end.
+Inside `starry-analyze\src\ui` directory, run `npm install`. This will install the required dependencies for the front-end.
 
 ## Running the Project
 
-1. `cpsc410_project2_team18\src\main\java\com\Parser` includes the main method that should be run. Add this as the Main class under configuration.
-2. When you run the `Parser` class, you will be prompted with a window telling you to select a Java file or a directory. Navigate to the project you would like to analyze,then select the root project folder or individual files you want to analyze. Click 'Open'. (You can also analyze the sample files in `cpsc410_project2_team18\src\main\resources`.)
+1. `starry-analyze\src\main\java\com\Parser` includes the main method that should be run. Add this as the Main class under configuration.
+2. When you run the `Parser` class, you will be prompted with a window telling you to select a Java file or a directory. Navigate to the project you would like to analyze,then select the root project folder or individual files you want to analyze. Click 'Open'. (You can also analyze the sample files in `starry-analyze\src\main\resources`.)
 3. Then the front-end (React) should automatically start after a while. Note that it might take a while. Usually it's going to automatically open a browser for localhost at Port 3000, but if it doesn't, you might have to manually open a browser then go to `http://localhost:3000/`.
