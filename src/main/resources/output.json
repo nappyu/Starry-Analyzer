@@ -1,0 +1,513 @@
+[
+  {
+    "className": "Parser",
+    "methods": [
+      {
+        "methodName": "void CheckForUnusedParams(MethodDeclaration, ArrayList\u003cString\u003e)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: method in Method: CheckForUnusedParams on Line: 35",
+          "Warning: Unused Param: out in Method: CheckForUnusedParams on Line: 35",
+          "Warning: Unused Import Statement: java.nio.file.StandardOpenOption",
+          "Warning: Unused Import Statement: java.nio.file.Paths",
+          "Warning: Unused Import Statement: java.nio.file.Files",
+          "Warning: Unused Import Statement: com.github.javaparser.StaticJavaParser",
+          "Warning: Unused Import Statement: com.github.javaparser.ParseProblemException"
+        ],
+        "dependencies": []
+      },
+      {
+        "methodName": "void DecorateMessages(ArrayList\u003cString\u003e, boolean)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: messages in Method: DecorateMessages on Line: 85",
+          "Warning: Unused Param: isWarning in Method: DecorateMessages on Line: 85",
+          "Warning: Unused Import Statement: java.nio.file.StandardOpenOption",
+          "Warning: Unused Import Statement: java.nio.file.Paths",
+          "Warning: Unused Import Statement: java.nio.file.Files",
+          "Warning: Unused Import Statement: com.github.javaparser.StaticJavaParser",
+          "Warning: Unused Import Statement: com.github.javaparser.ParseProblemException"
+        ],
+        "dependencies": []
+      },
+      {
+        "methodName": "void CheckForUnusedVariables(MethodDeclaration, ArrayList\u003cString\u003e)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: method in Method: CheckForUnusedVariables on Line: 60",
+          "Warning: Unused Param: out in Method: CheckForUnusedVariables on Line: 60",
+          "Warning: Unused Import Statement: java.nio.file.StandardOpenOption",
+          "Warning: Unused Import Statement: java.nio.file.Paths",
+          "Warning: Unused Import Statement: java.nio.file.Files",
+          "Warning: Unused Import Statement: com.github.javaparser.StaticJavaParser",
+          "Warning: Unused Import Statement: com.github.javaparser.ParseProblemException"
+        ],
+        "dependencies": []
+      },
+      {
+        "methodName": "void main(String[])",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: args in Method: main on Line: 101",
+          "Warning: Unused Import Statement: java.nio.file.StandardOpenOption",
+          "Warning: Unused Import Statement: java.nio.file.Paths",
+          "Warning: Unused Import Statement: java.nio.file.Files",
+          "Warning: Unused Import Statement: com.github.javaparser.StaticJavaParser",
+          "Warning: Unused Import Statement: com.github.javaparser.ParseProblemException"
+        ],
+        "dependencies": [
+          "CheckForUnusedParams",
+          "CheckForUnusedVariables",
+          "DecorateMessages",
+          "DecorateMessages"
+        ]
+      }
+    ]
+  },
+  {
+    "className": "ClassData",
+    "methods": [
+      {
+        "methodName": "String getClassName()",
+        "status": "OK",
+        "messages": [],
+        "dependencies": []
+      },
+      {
+        "methodName": "ArrayList\u003cMethodData\u003e getMethods()",
+        "status": "OK",
+        "messages": [],
+        "dependencies": []
+      },
+      {
+        "methodName": "void addMethod(MethodData)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: method in Method: addMethod on Line: 24"
+        ],
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "className": "MethodData",
+    "methods": [
+      {
+        "methodName": "String getMethodName()",
+        "status": "OK",
+        "messages": [],
+        "dependencies": []
+      },
+      {
+        "methodName": "ArrayList\u003cString\u003e getDependencies()",
+        "status": "OK",
+        "messages": [],
+        "dependencies": []
+      },
+      {
+        "methodName": "void setStatus(Status)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: status in Method: setStatus on Line: 38"
+        ],
+        "dependencies": []
+      },
+      {
+        "methodName": "ArrayList\u003cString\u003e getMessages()",
+        "status": "OK",
+        "messages": [],
+        "dependencies": []
+      },
+      {
+        "methodName": "Status getStatus()",
+        "status": "OK",
+        "messages": [],
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "className": "UnusedImports",
+    "methods": [
+      {
+        "methodName": "ArrayList\u003cString\u003e getUnusedImports()",
+        "status": "HIGH_RISK",
+        "messages": [
+          "Warning: Unused Import Statement: java.util.stream.Collectors",
+          "Warning: Unused Import Statement: java.util.stream.Stream",
+          "Warning: Unused Import Statement: com.gruppesechs.ast_parser.Parser",
+          "Critical: Contains an empty block statementOptional[(line 82,col 20)-(line 84,col 13)]"
+        ],
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "className": "EmptyMethodVisitor",
+    "methods": [
+      {
+        "methodName": "Visitable visit(BlockStmt, ArrayList\u003cString\u003e)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: n in Method: visit on Line: 16",
+          "Warning: Unused Param: arg in Method: visit on Line: 16",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.expr.AnnotationExpr",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.visitor.ModifierVisitor",
+          "Warning: Unused Import Statement: java.util.Optional",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.expr.Expression",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.NodeList",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.body.VariableDeclarator"
+        ],
+        "dependencies": [
+          "visit"
+        ]
+      }
+    ]
+  },
+  {
+    "className": "ForLoopModifierVisitor",
+    "methods": [
+      {
+        "methodName": "Visitable visit(ForStmt, ArrayList\u003cString\u003e)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: n in Method: visit on Line: 18",
+          "Warning: Unused Param: arg in Method: visit on Line: 18",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.visitor.ModifierVisitor",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.stmt.BreakStmt",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.expr.BinaryExpr",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.stmt.ReturnStmt"
+        ],
+        "dependencies": [
+          "visit"
+        ]
+      },
+      {
+        "methodName": "boolean willIterateAtLeastOnce(String, int, int)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: operator in Method: willIterateAtLeastOnce on Line: 61",
+          "Warning: Unused Param: init in Method: willIterateAtLeastOnce on Line: 61",
+          "Warning: Unused Param: compare in Method: willIterateAtLeastOnce on Line: 61",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.visitor.ModifierVisitor",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.stmt.BreakStmt",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.expr.BinaryExpr",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.stmt.ReturnStmt"
+        ],
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "className": "IfStmtModifierVisitor",
+    "methods": [
+      {
+        "methodName": "Visitable visit(IfStmt, ArrayList\u003cString\u003e)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: n in Method: visit on Line: 10",
+          "Warning: Unused Param: arg in Method: visit on Line: 10",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.visitor.ModifierVisitor"
+        ],
+        "dependencies": [
+          "visit"
+        ]
+      }
+    ]
+  },
+  {
+    "className": "ImportsDeclaredVisitor",
+    "methods": [
+      {
+        "methodName": "void visit(ImportDeclaration, HashMap\u003cString, String\u003e)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: id in Method: visit on Line: 9",
+          "Warning: Unused Param: outList in Method: visit on Line: 9",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.visitor.VoidVisitorAdapter"
+        ],
+        "dependencies": [
+          "visit"
+        ]
+      }
+    ]
+  },
+  {
+    "className": "MethodDependencyVisitor",
+    "methods": [
+      {
+        "methodName": "void visit(MethodCallExpr, ArrayList\u003cString\u003e)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: n in Method: visit on Line: 14",
+          "Warning: Unused Param: collector in Method: visit on Line: 14",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.visitor.ModifierVisitor",
+          "Warning: Unused Import Statement: java.util.HashMap",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.body.MethodDeclaration",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.visitor.Visitable",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.stmt.ForStmt",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.visitor.VoidVisitorAdapter"
+        ],
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "className": "MethodNameVisitor",
+    "methods": [
+      {
+        "methodName": "void visit(MethodDeclaration, HashMap\u003cMethodDeclaration, ArrayList\u003cString\u003e\u003e)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: n in Method: visit on Line: 16",
+          "Warning: Unused Param: collector in Method: visit on Line: 16",
+          "Warning: Unused Variable: s in Method: visit on Line: 16",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.visitor.ModifierVisitor",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.visitor.Visitable",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.stmt.ForStmt",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.visitor.VoidVisitorAdapter"
+        ],
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "className": "MethodSignatureVisitor",
+    "methods": [
+      {
+        "methodName": "void visit(MethodDeclaration, List\u003cString\u003e)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: md in Method: visit on Line: 9",
+          "Warning: Unused Param: outList in Method: visit on Line: 9",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.visitor.VoidVisitorAdapter"
+        ],
+        "dependencies": [
+          "visit"
+        ]
+      }
+    ]
+  },
+  {
+    "className": "ObjectCreationVisitor",
+    "methods": [
+      {
+        "methodName": "void visit(ObjectCreationExpr, List\u003cString\u003e)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: oc in Method: visit on Line: 10",
+          "Warning: Unused Param: outList in Method: visit on Line: 10",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.visitor.VoidVisitorAdapter",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.body.VariableDeclarator"
+        ],
+        "dependencies": [
+          "visit"
+        ]
+      }
+    ]
+  },
+  {
+    "className": "SimpleNameModifierVisitor",
+    "methods": [
+      {
+        "methodName": "Visitable visit(SimpleName, ArrayList\u003cSimpleName\u003e)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: n in Method: visit on Line: 11",
+          "Warning: Unused Param: arg in Method: visit on Line: 11",
+          "Warning: Unused Import Statement: java.util.Locale",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.visitor.ModifierVisitor"
+        ],
+        "dependencies": [
+          "visit"
+        ]
+      }
+    ]
+  },
+  {
+    "className": "TodoModifierVisitor",
+    "methods": [
+      {
+        "methodName": "Visitable visit(BlockComment, ArrayList\u003cString\u003e)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: n in Method: visit on Line: 12",
+          "Warning: Unused Param: arg in Method: visit on Line: 12",
+          "Warning: Unused Import Statement: java.util.Locale",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.visitor.ModifierVisitor"
+        ],
+        "dependencies": [
+          "visit"
+        ]
+      },
+      {
+        "methodName": "Visitable visit(LineComment, ArrayList\u003cString\u003e)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: n in Method: visit on Line: 22",
+          "Warning: Unused Param: arg in Method: visit on Line: 22",
+          "Warning: Unused Import Statement: java.util.Locale",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.visitor.ModifierVisitor"
+        ],
+        "dependencies": [
+          "visit"
+        ]
+      }
+    ]
+  },
+  {
+    "className": "VariableDecModifierVisitor",
+    "methods": [
+      {
+        "methodName": "Visitable visit(VariableDeclarationExpr, ArrayList\u003cSimpleName\u003e)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: n in Method: visit on Line: 13",
+          "Warning: Unused Param: arg in Method: visit on Line: 13",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.visitor.ModifierVisitor"
+        ],
+        "dependencies": [
+          "visit"
+        ]
+      }
+    ]
+  },
+  {
+    "className": "VariablesDeclaredVisitor",
+    "methods": [
+      {
+        "methodName": "void visit(VariableDeclarator, List\u003cString\u003e)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: vd in Method: visit on Line: 12",
+          "Warning: Unused Param: outList in Method: visit on Line: 12",
+          "Warning: Unused Import Statement: java.util.Optional",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.expr.Expression",
+          "Warning: Unused Import Statement: java.util.HashMap",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.visitor.VoidVisitorAdapter"
+        ],
+        "dependencies": [
+          "visit"
+        ]
+      }
+    ]
+  },
+  {
+    "className": "WhileLoopModifierVisitor",
+    "methods": [
+      {
+        "methodName": "Visitable visit(WhileStmt, ArrayList\u003cString\u003e)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: n in Method: visit on Line: 14",
+          "Warning: Unused Param: arg in Method: visit on Line: 14",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.visitor.ModifierVisitor",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.stmt.BreakStmt",
+          "Warning: Unused Import Statement: com.github.javaparser.ast.stmt.ReturnStmt"
+        ],
+        "dependencies": [
+          "visit"
+        ]
+      }
+    ]
+  },
+  {
+    "className": "Blabla",
+    "methods": [
+      {
+        "methodName": "void method1013(StreamBuffer, int)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: buf in Method: method1013 on Line: 9",
+          "Warning: Unused Param: opcode in Method: method1013 on Line: 9",
+          "Warning: Unused Import Statement: com.github.javaparser.utils.CodeGenerationUtils",
+          "Warning: Unused Import Statement: java.util.ArrayList",
+          "Warning: Unused Import Statement: java.util.List",
+          "Warning: Unused Import Statement: com.github.javaparser.utils.SourceRoot"
+        ],
+        "dependencies": []
+      },
+      {
+        "methodName": "void doNothing()",
+        "status": "HIGH_RISK",
+        "messages": [
+          "Warning: Unused Import Statement: com.github.javaparser.utils.CodeGenerationUtils",
+          "Warning: Unused Import Statement: java.util.ArrayList",
+          "Warning: Unused Import Statement: java.util.List",
+          "Warning: Unused Import Statement: com.github.javaparser.utils.SourceRoot",
+          "Critical: Contains an empty block statementOptional[(line 191,col 30)-(line 192,col 5)]"
+        ],
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "className": "Test",
+    "methods": [
+      {
+        "methodName": "void test1()",
+        "status": "HIGH_RISK",
+        "messages": [
+          "Warning: Unused Import Statement: java.util.HashMap",
+          "Warning: Unused Import Statement: java.util.HashSet",
+          "Critical: Contains an empty block statementOptional[(line 50,col 20)-(line 51,col 9)]",
+          "Critical: The loop condition at line 53 is not written to within the body.",
+          "Critical: The for loop\u0027s condition at line 40 should be true at least once.",
+          "Critical: The for loop at line 50 does not have an end condition."
+        ],
+        "dependencies": [
+          "test2",
+          "test3",
+          "test4"
+        ]
+      },
+      {
+        "methodName": "void test3(String)",
+        "status": "HIGH_RISK",
+        "messages": [
+          "Warning: Unused Param: s in Method: test3 on Line: 76",
+          "Warning: Unused Import Statement: java.util.HashMap",
+          "Warning: Unused Import Statement: java.util.HashSet",
+          "Critical: Contains an empty block statementOptional[(line 76,col 34)-(line 78,col 5)]"
+        ],
+        "dependencies": []
+      },
+      {
+        "methodName": "void test4()",
+        "status": "WARNING",
+        "messages": [
+          "Warning: TODO Comment was found at line 82",
+          "Warning: Unused Variable: s in Method: test4 on Line: 81",
+          "Warning: Unused Import Statement: java.util.HashMap",
+          "Warning: Unused Import Statement: java.util.HashSet"
+        ],
+        "dependencies": []
+      },
+      {
+        "methodName": "void test2()",
+        "status": "HIGH_RISK",
+        "messages": [
+          "Warning: Unused Import Statement: java.util.HashMap",
+          "Warning: Unused Import Statement: java.util.HashSet",
+          "Critical: Contains an empty block statementOptional[(line 60,col 22)-(line 61,col 9)]",
+          "Critical: The while loop at line 60 does not have an end condition."
+        ],
+        "dependencies": [
+          "test1"
+        ]
+      },
+      {
+        "methodName": "void test2(String)",
+        "status": "WARNING",
+        "messages": [
+          "Warning: Unused Param: s in Method: test2 on Line: 64",
+          "Warning: Unused Import Statement: java.util.HashMap",
+          "Warning: Unused Import Statement: java.util.HashSet"
+        ],
+        "dependencies": [
+          "test1"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+.star {
+    padding: 2%;
+    width: fit-content;
+    position: absolute;
+}
+
+.popover-content {
+    position: absolute;
+    left: -100px;
+    transform: translate(0, 20px);
+    padding: 1.5rem;
+    width: 500px;
+    z-index: 1000;
+    max-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-size: 17px;
+}
+
+.method-name {
+    font-size: 13px;
+    transition: transform .2s;
+    color: #fff;
+    text-align: center;
+    animation: glow-red 1s ease-in-out infinite alternate;
+    display: inline-block;
+}
+
+.method-name:hover {
+    transform: scale(2);
+    cursor: pointer;
+}
+
+@keyframes glow-red {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #ff213c, 0 0 30px #e60011, 0 0 40px #e65656, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff002c, 0 0 40px #ff2457, 0 0 50px #ff776b, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+@keyframes glow-yellow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #ffbe00, 0 0 30px #e6dc00, 0 0 40px #dfe673, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ffe000, 0 0 40px #ffa200, 0 0 50px #bab900, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+@keyframes glow-green {
+    from {
+        text-shadow: 0 0 10px #5fd000, 0 0 20px #0bab00, 0 0 30px #00e614, 0 0 40px #00e683, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #3aff00, 0 0 30px #00dcff, 0 0 40px #069300, 0 0 50px #00ff79, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
