@@ -14,8 +14,8 @@ Every time a page is refreshed, the stars will get generated at different random
 https://youtu.be/Tsl__cAysWI
 
 ### Screenshots:
-![1](https://github.com/nappyu/Starry-Analyzer/blob/master/screenshot1.png)
-![2](https://github.com/nappyu/Starry-Analyzer/blob/master/screenshot2.png)
+![1](https://github.com/nappyu/Starry-Analyzer/blob/main/screenshot1.png)
+![2](https://github.com/nappyu/Starry-Analyzer/blob/main/screenshot2.png)
 
 ### What the analyzer checks for:
 - Loop conditions should be true at least once
